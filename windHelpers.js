@@ -89,7 +89,7 @@ const buildGaugeWindChart = (stationSpeed,stationGust,stationDirection,stationMa
 	    },
 
 	    subtitle: {
-	        text: `Station: Mount Mitchell (MITC)<br/>24-Hour High: ${stationGust} mph`
+	        text: `Station: Mount Mitchell (MITC)<br/>24-Hour High: ${stationMaxGust} mph`
 	    },
 	    pane: {
 	        size: '90%',
